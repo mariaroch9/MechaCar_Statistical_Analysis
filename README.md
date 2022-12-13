@@ -11,7 +11,8 @@ In our analysis our dependent variable (y) is mpg. Our independent variables (x1
 We are looking to build a model of y = m1x1 + m2x2 + … + m6x6 + b, for all independent x variables and their m coefficients, where b is the intercept and m is the slope of the line. 
 
 '''
-/Users/Rochelle/Desktop/R/MechaCar_Statistical_Analysis/Images/Linear_Regression.png
+<img width="785" alt="Linear_Regression" src="https://user-images.githubusercontent.com/111670866/207462414-cc5ba40f-f229-4b7e-ab79-74b1f83c6ad7.png">
+
 '''
  
 ## Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -44,10 +45,13 @@ The Multiple R-squared value is most often used as one predictor to tell us what
 ## Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. When we look at the variance overall, our design specifications seem to meet the criterion. An in-depth analysis of the split between manufacturing lots reveals that Lots 1 and 22 pass the criterion. However, Lot 3 has a variance of over 170 and it does not pass the 100 PSI criterion. 
 '''
-/Users/Rochelle/Desktop/R/MechaCar_Statistical_Analysis/Images/Variance.png
+<img width="386" alt="Variance" src="https://user-images.githubusercontent.com/111670866/207462538-a00befbc-ae12-4645-90ee-877e08f39a80.png">
+
 '''
+
 '''
- /Users/Rochelle/Desktop/R/MechaCar_Statistical_Analysis/Images/Lots_variance.png
+<img width="525" alt="Lots_variance" src="https://user-images.githubusercontent.com/111670866/207462580-7ef707ba-e7c9-4dcb-bcf0-70107dc0f9a7.png">
+
 '''
  
 
@@ -61,12 +65,9 @@ We can also use a one-sided t-test by changing our alternative hypothesis to sta
 
 ## t-Test
 The first t-test that we conducted was to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-'''
- /Users/Rochelle/Desktop/R/MechaCar_Statistical_Analysis/Images/t_test.png
-'''
-'''
-/Users/Rochelle/Desktop/R/MechaCar_Statistical_Analysis/Images/t_test_Multiple_Lots.png
 
+'''
+<img width="797" alt="t_test" src="https://user-images.githubusercontent.com/111670866/207462616-6364ee74-03fd-4318-bc67-806f32c4e785.png">
 '''
 
 ## Findings: 
@@ -75,10 +76,9 @@ Assuming our significance level was the common 0.05 percent, our p-value (1) is 
 ## t-Test
 We conducted 2 more t-tests to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 
-!
-
-
- 
+'''
+<img width="797" alt="t_test_Multiple_Lots" src="https://user-images.githubusercontent.com/111670866/207462676-f7086f9d-b8e8-45d1-8123-2e96f8981491.png">
+''' 
 
 ## Findings
 
